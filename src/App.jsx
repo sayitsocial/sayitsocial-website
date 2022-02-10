@@ -1,9 +1,13 @@
 import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <h1>hey</h1>
+      <div>
+        <Routes></Routes>
+      </div>
     </>
   );
 };

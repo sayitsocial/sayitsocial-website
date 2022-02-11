@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Landing.css";
+import "../Styles/Landing/Landing.css";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import SearchIcon from "@material-ui/icons/Search";
 

@@ -2,8 +2,12 @@ import React from "react";
 import "../Styles/Landing/Landing.css";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import SearchIcon from "@material-ui/icons/Search";
+import SignUp from './Signup'
+import { Routes,Route } from "react-router-dom";
 
 const Landing = () => {
+  
+
   return (
     <>
       <div className='landing'>
@@ -26,7 +30,7 @@ const Landing = () => {
 
             <div className='container-buttons'>
               <button className='btn-login'>Login</button>
-              <button className='btn-signup'>Signup</button>
+              <button className='btn-signup' ><a href="/signup">signup</a></button>
             </div>
           </div>
           <div className='hero'>
